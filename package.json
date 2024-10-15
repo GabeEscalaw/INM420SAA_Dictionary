@@ -1,0 +1,15 @@
+{
+  "name": "inm420saa_dictionary",
+  "version": "1.0.0",
+  "description": "Merriam-Webster Dictionary API",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

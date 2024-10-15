@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Merriam Webster Dictionary API</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/assets/img/logo.png" alt="Dictionary Logo" class="logo">
+    </header>
+
+    <main>
+        <div id="dictionary-search">
+            <input type="text" id="word-input" placeholder="Search Dictionary">
+            <button id="search-button">Search</button>
+        </div>
+
+        <div id="definition-display">
+            <p id="loading-message">Enter keyword</p>
+        </div>
+    </main>
+
+    <script src="/assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</body>
+</html>
